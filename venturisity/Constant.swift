@@ -8,6 +8,8 @@
 
 import Foundation
 
+let pincode = 170598
+
 var selectedFactoryName = ""
 var selectedFactoryImageName = ""
 var selectedFactoryLocation = ""
@@ -15,7 +17,7 @@ var selectedFactorySurplusEnergy = 0
 
 var highClassFactory = [
     [
-        "factoryName":"Vellu Makers",
+        "factoryName":"Vellu xwxMakers",
         "factoryLocation":"Ranipet Marg",
         "factoryImageName":"M1",
         "renewableEnergy":1340,

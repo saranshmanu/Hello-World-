@@ -1,0 +1,6 @@
+framework module Pods_venturisityUITests {
+  umbrella header "Pods-venturisityUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

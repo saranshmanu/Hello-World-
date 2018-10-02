@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class RequestEnergyViewController: UIViewController,UITextFieldDelegate {
     
@@ -36,11 +37,18 @@ class RequestEnergyViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func ContinueButtonAction(_ sender: Any) {
+//        let url = ""
+//        let params = [
+//            "pinCode":pincode,
+//            ""
+//        ]
+//        Alamofire.request(url, method: .post, parameters: params)
         self.uniqueCodePage.isHidden = false
         self.uniqueCodePage.alpha = 0.0
         let alert = UIAlertController(title: "Completed", message: "Your request for surplus energy is sent. Wait for the owner to approve!", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        
     }
     
     @IBOutlet weak var ContinueButton: UIButton!

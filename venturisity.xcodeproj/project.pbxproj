@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529BE4A6E2B34CF940146E30 /* Pods_venturisityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEEAEF64C0EB9C452064322 /* Pods_venturisityTests.framework */; };
 		950A1C4F2162CDA100616C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A1C4E2162CDA100616C05 /* AppDelegate.swift */; };
 		950A1C512162CDA100616C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A1C502162CDA100616C05 /* ViewController.swift */; };
 		950A1C542162CDA100616C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950A1C522162CDA100616C05 /* Main.storyboard */; };
@@ -60,6 +61,8 @@
 		95DAD75F2163465200C23D29 /* SFCompactText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 95DAD7352163465200C23D29 /* SFCompactText-HeavyItalic.otf */; };
 		95DAD7612163592F00C23D29 /* RequestEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAD7602163592F00C23D29 /* RequestEnergyViewController.swift */; };
 		95DAD7632163594500C23D29 /* SendEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAD7622163594500C23D29 /* SendEnergyViewController.swift */; };
+		B12C79D83260D17B5248CD2A /* Pods_venturisity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453F700C93FE4C559084A05A /* Pods_venturisity.framework */; };
+		C30A1B6FC0F3061EFF08D31D /* Pods_venturisityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62A0020C0BDD9066EF59FE7 /* Pods_venturisityUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B603A9CFD79BBBE10963E8 /* Pods-venturisityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venturisityTests/Pods-venturisityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		373F35B870B95816FF6CAAEA /* Pods-venturisity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisity.release.xcconfig"; path = "Pods/Target Support Files/Pods-venturisity/Pods-venturisity.release.xcconfig"; sourceTree = "<group>"; };
+		3E38587AFC3E71FE6F173231 /* Pods-venturisityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-venturisityUITests/Pods-venturisityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		453F700C93FE4C559084A05A /* Pods_venturisity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venturisity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEEAEF64C0EB9C452064322 /* Pods_venturisityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venturisityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950A1C4B2162CDA000616C05 /* venturisity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = venturisity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		950A1C4E2162CDA100616C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		950A1C502162CDA100616C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +147,10 @@
 		95DAD7352163465200C23D29 /* SFCompactText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-HeavyItalic.otf"; sourceTree = "<group>"; };
 		95DAD7602163592F00C23D29 /* RequestEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestEnergyViewController.swift; sourceTree = "<group>"; };
 		95DAD7622163594500C23D29 /* SendEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEnergyViewController.swift; sourceTree = "<group>"; };
+		A1AA61EEBD40C1702DB31872 /* Pods-venturisity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venturisity/Pods-venturisity.debug.xcconfig"; sourceTree = "<group>"; };
+		B7722B63296C884A63D4DFE5 /* Pods-venturisityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-venturisityTests/Pods-venturisityTests.release.xcconfig"; sourceTree = "<group>"; };
+		F62A0020C0BDD9066EF59FE7 /* Pods_venturisityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venturisityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9F7BE0241C63CDC1D80B86 /* Pods-venturisityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venturisityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venturisityUITests/Pods-venturisityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12C79D83260D17B5248CD2A /* Pods_venturisity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529BE4A6E2B34CF940146E30 /* Pods_venturisityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,12 +174,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30A1B6FC0F3061EFF08D31D /* Pods_venturisityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C37568CF8FB785B493A7248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453F700C93FE4C559084A05A /* Pods_venturisity.framework */,
+				8BEEAEF64C0EB9C452064322 /* Pods_venturisityTests.framework */,
+				F62A0020C0BDD9066EF59FE7 /* Pods_venturisityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7725A7045C34A0C3E5B827D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1AA61EEBD40C1702DB31872 /* Pods-venturisity.debug.xcconfig */,
+				373F35B870B95816FF6CAAEA /* Pods-venturisity.release.xcconfig */,
+				08B603A9CFD79BBBE10963E8 /* Pods-venturisityTests.debug.xcconfig */,
+				B7722B63296C884A63D4DFE5 /* Pods-venturisityTests.release.xcconfig */,
+				FE9F7BE0241C63CDC1D80B86 /* Pods-venturisityUITests.debug.xcconfig */,
+				3E38587AFC3E71FE6F173231 /* Pods-venturisityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		950A1C422162CDA000616C05 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +211,8 @@
 				950A1C622162CDA100616C05 /* venturisityTests */,
 				950A1C6D2162CDA100616C05 /* venturisityUITests */,
 				950A1C4C2162CDA000616C05 /* Products */,
+				7725A7045C34A0C3E5B827D5 /* Pods */,
+				6C37568CF8FB785B493A7248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 950A1C732162CDA100616C05 /* Build configuration list for PBXNativeTarget "venturisity" */;
 			buildPhases = (
+				569038AAEB5595001BCF812F /* [CP] Check Pods Manifest.lock */,
 				950A1C472162CDA000616C05 /* Sources */,
 				950A1C482162CDA000616C05 /* Frameworks */,
 				950A1C492162CDA000616C05 /* Resources */,
+				72772B34EA89FE50F6CB4276 /* [CP] Embed Pods Frameworks */,
+				81FB53D9D607ECA94115B4ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 950A1C762162CDA100616C05 /* Build configuration list for PBXNativeTarget "venturisityTests" */;
 			buildPhases = (
+				23A31C74D6C54075FDA07744 /* [CP] Check Pods Manifest.lock */,
 				950A1C5B2162CDA100616C05 /* Sources */,
 				950A1C5C2162CDA100616C05 /* Frameworks */,
 				950A1C5D2162CDA100616C05 /* Resources */,
+				1127CF8095BCCEC436159369 /* [CP] Embed Pods Frameworks */,
+				321AD90FFFE09602D21DCC5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 950A1C792162CDA100616C05 /* Build configuration list for PBXNativeTarget "venturisityUITests" */;
 			buildPhases = (
+				956AB47AA06138735DCB258D /* [CP] Check Pods Manifest.lock */,
 				950A1C662162CDA100616C05 /* Sources */,
 				950A1C672162CDA100616C05 /* Frameworks */,
 				950A1C682162CDA100616C05 /* Resources */,
+				762A1A9AA89F35BEC078348E /* [CP] Embed Pods Frameworks */,
+				521902FF9E7697D6BCD518F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,6 +491,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1127CF8095BCCEC436159369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisityTests/Pods-venturisityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A31C74D6C54075FDA07744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-venturisityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321AD90FFFE09602D21DCC5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisityTests/Pods-venturisityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		521902FF9E7697D6BCD518F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisityUITests/Pods-venturisityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569038AAEB5595001BCF812F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-venturisity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72772B34EA89FE50F6CB4276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-venturisity/Pods-venturisity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisity/Pods-venturisity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762A1A9AA89F35BEC078348E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisityUITests/Pods-venturisityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81FB53D9D607ECA94115B4ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-venturisity/Pods-venturisity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956AB47AA06138735DCB258D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-venturisityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		950A1C472162CDA000616C05 /* Sources */ = {
@@ -617,6 +816,7 @@
 		};
 		950A1C742162CDA100616C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1AA61EEBD40C1702DB31872 /* Pods-venturisity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -632,6 +832,7 @@
 		};
 		950A1C752162CDA100616C05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373F35B870B95816FF6CAAEA /* Pods-venturisity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -647,6 +848,7 @@
 		};
 		950A1C772162CDA100616C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B603A9CFD79BBBE10963E8 /* Pods-venturisityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,6 +865,7 @@
 		};
 		950A1C782162CDA100616C05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7722B63296C884A63D4DFE5 /* Pods-venturisityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,6 +882,7 @@
 		};
 		950A1C7A2162CDA100616C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9F7BE0241C63CDC1D80B86 /* Pods-venturisityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,6 +898,7 @@
 		};
 		950A1C7B2162CDA100616C05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E38587AFC3E71FE6F173231 /* Pods-venturisityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
